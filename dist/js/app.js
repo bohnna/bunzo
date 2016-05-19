@@ -84,7 +84,6 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var store = (0, _store2.default)(_reactRouter.browserHistory);
-
 	var target = document.getElementById('main_container');
 	var node = _react2.default.createElement(_root2.default, { routerHistory: _reactRouter.browserHistory, store: store });
 
