@@ -1,4 +1,9 @@
 <?php
+
+require _DIR_ . '/lib/vendor/autoload.php';
+
+use Bunzo\Bunzo;
+
 if ( ! function_exists( 'bunzo_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
